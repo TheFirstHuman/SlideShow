@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+}
+
+header {
+	background-color: #ccc;
+	text-align: center;
+	padding: 14px;
+}
+
+main {
+	padding-top: 14px;
+}
+
+main > * {
+	padding: 14px;
+}
+
+#menu > h2:first-child {
+	padding-bottom: 0px;
+	text-decoration: underline;
+}
+
+#menu > p:nth-child(2) {
+	padding-bottom: 14px;
+}
+
+#menu > section {
+	padding-bottom: 14px;
+}
+
+#menu > * > h2 {
+	padding-bottom: 14px;
+}
+
+#menu > * > h3 {
+	font-style: italic;
+}
+
+#menu > * > p {
+	padding-bottom: 14px;
+}
+
+#control_toolbar > h2 {
+	text-decoration: underline;
+}
+
+#control_toolbar > p {
+	margin-bottom: 14px;
+}
